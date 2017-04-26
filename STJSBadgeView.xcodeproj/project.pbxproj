@@ -15,6 +15,7 @@
 		9E80AF091EA46C5A00773B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E80AF071EA46C5A00773B61 /* LaunchScreen.storyboard */; };
 		9E80AF141EA46C5B00773B61 /* STJSBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E80AF131EA46C5B00773B61 /* STJSBadgeViewTests.m */; };
 		9E80AF1F1EA46C5B00773B61 /* STJSBadgeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E80AF1E1EA46C5B00773B61 /* STJSBadgeViewUITests.m */; };
+		9E80AF2E1EA4711F00773B61 /* JSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E80AF2D1EA4711F00773B61 /* JSBadgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9E80AF1A1EA46C5B00773B61 /* STJSBadgeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STJSBadgeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E80AF1E1EA46C5B00773B61 /* STJSBadgeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STJSBadgeViewUITests.m; sourceTree = "<group>"; };
 		9E80AF201EA46C5B00773B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E80AF2C1EA4711F00773B61 /* JSBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBadgeView.h; sourceTree = "<group>"; };
+		9E80AF2D1EA4711F00773B61 /* JSBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBadgeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9E80AEFD1EA46C5A00773B61 /* AppDelegate.m */,
 				9E80AEFF1EA46C5A00773B61 /* ViewController.h */,
 				9E80AF001EA46C5A00773B61 /* ViewController.m */,
+				9E80AF2C1EA4711F00773B61 /* JSBadgeView.h */,
+				9E80AF2D1EA4711F00773B61 /* JSBadgeView.m */,
 				9E80AF021EA46C5A00773B61 /* Main.storyboard */,
 				9E80AF051EA46C5A00773B61 /* Assets.xcassets */,
 				9E80AF071EA46C5A00773B61 /* LaunchScreen.storyboard */,
@@ -207,7 +212,6 @@
 				TargetAttributes = {
 					9E80AEF51EA46C5A00773B61 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = BKME25WU4F;
 						ProvisioningStyle = Automatic;
 					};
 					9E80AF0E1EA46C5B00773B61 = {
@@ -279,6 +283,7 @@
 				9E80AF011EA46C5A00773B61 /* ViewController.m in Sources */,
 				9E80AEFE1EA46C5A00773B61 /* AppDelegate.m in Sources */,
 				9E80AEFB1EA46C5A00773B61 /* main.m in Sources */,
+				9E80AF2E1EA4711F00773B61 /* JSBadgeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +430,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BKME25WU4F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = STJSBadgeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = STeam.STJSBadgeView;
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,10 +443,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BKME25WU4F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = STJSBadgeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = STeam.STJSBadgeView;
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

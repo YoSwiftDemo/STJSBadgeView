@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9E80AEF51EA46C5A00773B61"
+               BuildableName = "STJSBadgeView.app"
+               BlueprintName = "STJSBadgeView"
+               ReferencedContainer = "container:STJSBadgeView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9E80AF0E1EA46C5B00773B61"
+               BuildableName = "STJSBadgeViewTests.xctest"
+               BlueprintName = "STJSBadgeViewTests"
+               ReferencedContainer = "container:STJSBadgeView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9E80AF191EA46C5B00773B61"
+               BuildableName = "STJSBadgeViewUITests.xctest"
+               BlueprintName = "STJSBadgeViewUITests"
+               ReferencedContainer = "container:STJSBadgeView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9E80AEF51EA46C5A00773B61"
+            BuildableName = "STJSBadgeView.app"
+            BlueprintName = "STJSBadgeView"
+            ReferencedContainer = "container:STJSBadgeView.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9E80AEF51EA46C5A00773B61"
+            BuildableName = "STJSBadgeView.app"
+            BlueprintName = "STJSBadgeView"
+            ReferencedContainer = "container:STJSBadgeView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9E80AEF51EA46C5A00773B61"
+            BuildableName = "STJSBadgeView.app"
+            BlueprintName = "STJSBadgeView"
+            ReferencedContainer = "container:STJSBadgeView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
