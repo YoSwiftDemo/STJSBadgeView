@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					9E80AEF51EA46C5A00773B61 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
 						ProvisioningStyle = Automatic;
 					};
 					9E80AF0E1EA46C5B00773B61 = {
@@ -430,7 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BKME25WU4F;
 				INFOPLIST_FILE = STJSBadgeView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -443,7 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BKME25WU4F;
 				INFOPLIST_FILE = STJSBadgeView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -521,6 +522,7 @@
 				9E80AF251EA46C5B00773B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E80AF261EA46C5B00773B61 /* Build configuration list for PBXNativeTarget "STJSBadgeViewTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				9E80AF281EA46C5B00773B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E80AF291EA46C5B00773B61 /* Build configuration list for PBXNativeTarget "STJSBadgeViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +540,7 @@
 				9E80AF2B1EA46C5B00773B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
